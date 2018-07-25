@@ -1,8 +1,10 @@
 package test;
 
-public class TestRunner {
+import org.junit.Test;
 
-	public static void main(String[] args) {
+public class TestRunner {
+	@Test
+	public void test(){
 		// TODO Auto-generated method stub
 		System.out.println("it is working");
 	}
